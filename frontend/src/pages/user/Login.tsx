@@ -83,11 +83,11 @@ const Login: React.FC = () => {
                 <button type="submit"
                     disabled={loading}
                     className="mb-4 rounded-lg w-full sm:w-40 px-4 py-2 text-center bg-blue-900 focus:ring-blue-100 text-white">
-                    Logar
+                    Login
                 </button>
                 {mensagem && <div>{mensagem}</div>}
             
-                <NavLink className="mb-6 rounded-lg w-full sm:w-40 bg-blue-900 text-center px-4 py-2 text-white " to="/register">Cadastrar</NavLink>
+                <NavLink className="mb-6 rounded-lg w-full sm:w-40 bg-blue-900 text-center px-4 py-2 text-white " to="/register">Register</NavLink>
             </form>
         </div>
     );
